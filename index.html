@@ -9,7 +9,10 @@
 
     
 	<link rel="stylesheet" href="./Infradbops/style.css">
-	<link rel="stylesheet" href="./Infradbops/card.css">
+    <link rel="stylesheet" href="./Infradbops/rainbow.css">
+    <link rel="stylesheet" href="./Infradbops/button.css">
+    <link rel="stylesheet" href="./Infradbops/card.css">
+    
 	
     <link rel="stylesheet" href="./Infradbops/Infradbops.css">
     <link rel="canonical" href="https://shubline.github.io/Infradbops/">
@@ -28,38 +31,51 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 </head>
+
+
 <body>
+
     <a href="javascript:void(0)" id="backToTop" class="back-to-top" style="display: none;">
         <svg class="icon__arrow-up" viewBox="0 0 24 24">
             <title>Back to top</title>
             <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z"></path>
         </svg>
     </a>
+	
+	
     <div class="navigation flex-container flex-between p1 pl2 pr2">
-        <div class="logo">
+        
+		<div class="logo">
             <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Logo/Infradbops-logo.svg"></a>
         </div>
+		
         <div class="hamburger">
-            <a href="javascript:;" id="mobnav">
+            <a href="javascript:;" >
                 <img src="./Infradbops/Images/icon-menu.svg">
             </a>
         </div>
+		
+		
         <div class="navlinks fs125 fw500 flex-container flex-end flex-align-center">
-            <a class="c-primary text-nounder p05 pl1 pr1" href="https://shubline.github.io/Infradbops/">Home</a>
-            <div class="dropdown">
-                <a class="c-primary text-nounder p05 pl1 pr1 drop-toggle" href="javascript:;">Service</a>
-                <div class="dropdown-content bg-white card-shadow br05 pt1 pb1">
+              
+			  <a class="c-primary text-nounder p05 pl1 pr1" href="https://shubline.github.io/Infradbops/">Home</a>
+            
+			<div class="dropdown">
+                
+				<a class="c-primary text-nounder p05 pl1 pr1 drop-toggle" href="javascript:;">Service</a>
+                
+				<div class="dropdown-content bg-white card-shadow br05 pt1 pb1">
                     <a class="c-primary text-nounder" target="_blank" href="./Infradbops/Suporting Sites/"><span>SQL Server Consulting</span><small>Your Perfect Financial Plan</small></a>
                     <a class="c-primary text-nounder" target="_blank" href="./Infradbops/Suporting Sites/"><span>SQL Server Support</span><small>Trending courses on finance</small></a>
                     <a class="c-primary text-nounder" target="_blank" href="./Infradbops/Suporting Sites/"><span>SQL Server Monitoring</span><small>Investing ka search engine</small></a>
                     <a class="c-primary text-nounder" target="_blank" href="./Infradbops/Suporting Sites/"><span>SQL Server Remote DBA</span><small>Compare best stock brokers</small></a>
                 </div>
-            </div>
-            <div class="dropdown">
+            
+			 </div>
                 <a class="c-primary text-nounder p05 pl1 pr1" href="./Infradbops/Suporting Sites/About.html">Why Us</a>
-            </div>
- <a class="bg-primary text-nounder c-white p075 pl15 pr15 ml1 br05" href="./Infradbops/Suporting Sites/Contact.html">Connect With Us</a>
+                <a class="bg-primary text-nounder c-white p075 pl15 pr15 ml1 br05 btn" href="./Infradbops/Suporting Sites/Contact.html">Connect With Us</a>
         </div>
+		
     </div>
 
 
@@ -82,49 +98,76 @@
 
 <h1 class="c-primary fw800 fs4 pt3 pb2"> </h1>  <!-- provide space betweeb database image and card -->
 
- <div class ="fs125 fw500 flex-container flex-end flex-align-center">
-   
-   <div class = container1>
-    <div class = card>
-      <div class = image>
-        <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Images/db_card_1.png"></a>
-      </div>
-      <div class = content>
-        <h3>SQL Server Consulting</h3>
-        <p>Infradbops has a pool of certified SQL Server  DBA’s and SQL Server  Consultants. Our DBA’s have great expertise in various database technologies for SQL Server . Our Consultants skills are not limited only to SQL Server , they have expertise on Percona Servers,MariaDB,TokuDB and Galera clusters too.</p>
-      </div>
-    </div>    
-  </div>
-  
-  <div class = container1>
-    <div class = card>
-      <div class = image>
-        <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Images/db_card_1.png"></a>
-      </div>
-      <div class = content>
-        <h3>SQL Server Support</h3>
-        <p>Infradbops Support Team provides the emergency and product support on need basis.You can use this support model for critical outages,monitoring database during critical product releases,migration of SQL Server  databases,Benchmarking your databases,Implementing High availability and so on.</p>
-      </div>
-    </div>    
-  </div>
-  
-  <div class = container1>
-    <div class = card>
-      <div class = image>
-        <a href="https://shubline.github.io/Infradbops/"><img src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg"></a>
-      </div>
-      <div class = content>
-	  
-        <h3>SQL Server Remote DBA</h3>
-        <p>Infradbops has a Central DBA Team to support 24*7 for your SQL Server  databases. You can gain access to the entire Team of Expert DBA’s through Remote DBA Services. Our Remote DBA can cut your operations cost spend for databases..</p>
-      </div>
-    </div>    
-  </div>
-  
- 
-  
- </div>
 
+
+    <div class="bg-light flex-container  flex-align-center box">
+
+
+
+        <div class = " container1  ">
+                        
+            <div class = " card  rainbow ">
+            
+              <div class = image>
+                  <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Images/db_card_1.png"></a>
+              </div>
+            
+              <div class = heading>
+                 <h3>SQL Server Consulting</h3>
+              </div>
+
+               <div class = content>
+                   <!-- <h3>SQL Server Consulting</h3> -->
+                   <p>Infradbops has a pool of certified SQL Server  DBA’s and SQL Server  Consultants. Our DBA’s have great expertise in various database technologies for SQL Server . Our Consultants skills are not limited only to SQL Server , they have expertise on Percona Servers,MariaDB,TokuDB and Galera clusters too.</p>
+                </div>
+
+            </div>
+           
+        </div>   
+
+        <div class = container1>
+                        
+            <div class =  " card  rainbow ">
+            
+              <div class = image>
+                  <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Images/db_card_1.png"></a>
+              </div>
+            
+              <div class = heading>
+                 <h3>SQL Server Support</h3>
+              </div>
+
+               <div class = content>
+                   <!-- <h3>SQL Server Support</h3> -->
+                   <p>Infradbops Support Team provides the emergency and product support on need basis.You can use this support model for critical outages,monitoring database during critical product releases,migration of SQL Server databases,Benchmarking your databases,Implementing High availability and so on.</p>
+                </div>
+
+            </div> 
+           
+        </div> 
+
+        <div class = container1>
+                        
+            <div class =  " card  rainbow ">
+            
+              <div class = image>
+                  <a href="https://shubline.github.io/Infradbops/"><img src="./Infradbops/Images/db_card_1.png"></a>
+              </div>
+            
+              <div class = heading>
+                 <h3>SQL Server Remote DBA</h3>
+              </div>
+
+               <div class = content>
+                   <!-- <h3>SQL Server Remote DBA</h3> -->
+                   <p>Infradbops has a Central DBA Team to support 24*7 for your SQL Server databases. You can gain access to the entire Team of Expert DBA’s through Remote DBA Services. Our Remote DBA can cut your operations cost spend for databases.</p>
+                </div>
+
+            </div> 
+           
+        </div> 
+         
+    </div>
 
 
     <div class="footer bg-primary p5 flex-container flex-wrap">
