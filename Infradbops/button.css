@@ -1,0 +1,10 @@
+.btn:hover
+{
+background-image:none !important;
+background-color:#00ed64 !important;
+border-radius: 30px;
+border-color: 2px black;
+transition : 0.2s ease-in-out;
+color: black;
+}
+
