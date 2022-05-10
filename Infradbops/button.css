@@ -1,0 +1,41 @@
+.btn:hover
+{
+background-image:none !important;
+background-color:#00ed64 !important;
+border-radius: 30px;
+border-color: 2px black;
+transition : 0.275s ease-in-out;
+color: black;
+border: 1px solid black;
+
+}
+
+.btn1:hover
+{
+    color:#00ed64 !important;
+}
+
+.btn2
+{
+background-image:none !important;
+background-color: white !important;
+color :black !important;
+
+}
+
+.btn2:hover
+{
+    color:#00ed64 !important;
+    border: 1px solid black;
+    background-image:none !important;
+
+
+border-color: 2px black;
+transition : 0.275s ease-in-out;
+
+border: 1px solid black;
+
+/* margin : 30px 10px; */
+padding : 20px 15px;
+}
+
