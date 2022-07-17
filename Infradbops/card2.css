@@ -1,0 +1,129 @@
+* { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-family : "Poppins", sans-serif;
+}
+
+.bg-blue{
+  background-color: #003865;
+}
+
+.bg-green{
+  background-color: #00ed64;
+}
+
+.conclour{
+backdrop-filter: blur(100%);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+}
+
+.container2
+{
+  position : relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  padding : 10px;
+}
+
+.container2 .card2 {
+  position: relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+  max-width : 288px;
+  height : 488px;  
+  background-color : white;
+  border-radius : 15px; 
+  border: 1px solid transparent;
+  text-align : center; 
+  padding : 10px ;
+}
+
+/* .container2 .card2 .image2 {
+  align-self: flex-start;
+} */
+
+.container2 .card2 .heading {
+  position : absolute;
+  text-align : center;
+  top: 88px;
+  /* padding-top: 1px;
+  padding-bottom: 5px;   */
+ 
+}
+
+.container2 .card2 .content {
+  position : relative;
+  text-align : center;
+  top: 48px;
+  padding-top: 5px;
+  padding-bottom: 20px; 
+}
+
+.container2 .card2 .explore {
+  position : absolute;
+  text-align: center;
+  align-self: center;
+  bottom: 8px;
+  color: white;
+  background-color: #00ed64;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+ 
+}
+
+.white{
+  color: #ffff;
+}
+
+.container2 .card2:hover {
+  background-color : #00AC41 ;
+  color : rgb(255, 255, 255); 
+  border: 1px solid black;
+}
+
+
+.container2 .card2:hover .explore {
+  background-color : #ffff ;
+ color: #00ed64 ;
+}
+
+.container2 .card2:hover .white{
+  color: #00ed64 ;
+}
+
+
+
+.image {
+  position: absolute;
+  display: inline-block;
+  background-color : transparent ;
+  top: 0px;
+  
+}
+.image .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.container2 .card2:hover .img-top {
+  display: inline;
+  background-color : #00AC41 ;
+}
