@@ -95,6 +95,14 @@
 
 
 
+@media (max-width: 600px){
+    .db-image{
+        padding-right: 0px;
+    bottom: 0px;
+    /* position:relative; */
+    }
+
+}
 
 
 
