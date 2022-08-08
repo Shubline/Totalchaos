@@ -1,0 +1,150 @@
+* { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-family : "Poppins", sans-serif;
+}
+
+.conclour{
+backdrop-filter: blur(100%);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+}
+
+.container
+{
+  position : relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  padding : 10px;
+}
+
+.container .card {
+  position: relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+  max-width : 288px;
+  height : 488px;  
+  background-color : white;
+  border-radius : 15px; 
+  border: 1px solid transparent;
+  text-align : center; 
+  padding : 10px ;
+}
+
+/* .container .card .image2 {
+  align-self: flex-start;
+} */
+
+.container .card .heading {
+  position : absolute;
+  text-align : center;
+  top: 88px;
+  /* padding-top: 1px;
+  padding-bottom: 5px;   */
+ 
+}
+
+.container .card .content {
+  position : relative;
+  text-align : center;
+  top: 48px;
+  padding-top: 5px;
+  padding-bottom: 20px; 
+}
+
+.container .card .explore {
+  position : absolute;
+  text-align: center;
+  align-self: center;
+  bottom: 8px;
+  color: white;
+  background-color: #00ed64;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+ 
+}
+
+.white{
+  color: #ffff;
+}
+
+.container .card:hover {
+  background-color : #009de0 ;  /* #00AC41 */
+  color : rgb(255, 255, 255); 
+  border: 1px solid black;
+}
+
+
+.container .card:hover .explore {
+  background-color : #ffff ;
+ color: #00ed64 ;
+}
+
+.container .card:hover .white{
+  color: #00ed64 ;
+}
+
+
+
+.image {
+  position: absolute;
+  display: inline-block;
+  background-color : transparent ;
+  top: 0px;
+  
+}
+.image .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.container .card:hover .img-top {
+  display: inline;
+  background-color : #009de0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card2 {
+  position: relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+  max-width : 888px;
+  height : 200px;  
+  background-color : white;
+  border-radius : 15px; 
+  border: 1px solid transparent;
+  text-align : center; 
+  padding : 10px ;
+}
+
+
