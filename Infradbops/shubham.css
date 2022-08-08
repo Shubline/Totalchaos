@@ -27,17 +27,28 @@
   
   
   .leftsr {
-    padding-top: 160px;
+    padding-top: 104px;
     padding-bottom: 0px;
   
   }
 
   .db-image {
+    
     padding-right: 80px;
     bottom: 68px;
+    align-self:flex-start;
     position:relative;
 
   }
+
+  .db-image2 {
+  
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+ 
+
+}
 
   .logo-size{
 
@@ -45,6 +56,14 @@
     padding-bottom: 0px;
     margin: 0px;
   }
+
+
+
+
+
+
+
+
 
   .gradiance-tile {
 	background: rgb(0, 157, 224);
@@ -87,28 +106,154 @@
 
 
 
+@media (max-width: 600px){
+    .db-image{
+        padding-right: 40px;
+    bottom: 0px;
+    padding-top: 80px;
+    /* position:relative; */
+    
+    }
+    
+    .db-image2 {
+        
+.bg-blue{
+    background-color: #003865;
+    color: rgb(37, 171, 233);
+    
+  }
+  
+  .bg-green{
+    background-color: #00ed64;
+
+  }
+
+  .bg-footer{
+    background-color: #001e2b;
+    
+  }
+
+  .bg-gradient {
+
+    background-image: linear-gradient(45deg, rgba(12, 183, 103, 0.84), rgb(22, 96, 161));
+  
+  }
+    
+  .bg-image {
+    background-image: url('./images/database.png');
+    
+  }
+  
+  
+  .leftsr {
+    padding-top: 104px;
+    padding-bottom: 0px;
+  
+  }
+
+  .db-image {
+    
+    padding-right: 80px;
+    bottom: 68px;
+    align-self:flex-start;
+    position:relative;
+
+  }
+
+  .db-image2 {
+  
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+ 
+
+}
+
+  .logo-size{
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
 
 
 
 
 
+
+
+
+
+  .gradiance-tile {
+	background: rgb(0, 157, 224);
+	background: linear-gradient(
+		45deg,
+		rgba(0, 157, 224, 1) 0%,
+		rgba(0, 172, 65, 1) 100%
+	);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.green-gradiant {
+	background: rgb(0, 157, 224);
+	background: linear-gradient(
+		45deg,
+		rgba(0, 157, 224, 1) 0%,
+		rgba(0, 172, 65, 1) 100%
+	) !important;
+}
+.purple-gradiant {
+	background: rgb(0, 157, 224);
+	background: linear-gradient(
+		45deg,
+		rgba(0, 157, 224, 1) 0%,
+		#8246af 100%
+	) !important;
+}
+.turquoise-gradiant {
+	background: rgb(0, 157, 224);
+	background: linear-gradient(45deg, rgba(0, 157, 224, 1) 0%, #00968f 100%);
+}
+.pink-gradiant {
+	background: rgb(0, 157, 224);
+	background: linear-gradient(
+		45deg,
+		rgba(0, 157, 224, 1) 0%,
+		#ee3d8b 100%
+	) !important;
+}
 
 
 
 @media (max-width: 600px){
-    
-	.db-image{
-        padding-right: 0px;
+    .db-image{
+        padding-right: 40px;
     bottom: 0px;
+    padding-top: 80px;
     /* position:relative; */
-	    align-self:center;
+    
     }
-
+    
+/*     .db-image2 {
+        
+        height: auto;  
+       
+          max-width: 100%; 
+    
+    } */
 }
 
 
 
 
+
+
+
+
+
+    
+    }
+}
 
 
 
