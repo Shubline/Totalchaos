@@ -1,0 +1,302 @@
+* { 
+  margin : 0;
+  padding: 0;
+  box-sizing : border-box;
+  font-family : "Poppins", sans-serif;
+}
+
+.conclour{
+backdrop-filter: blur(100%);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+}
+
+.container
+{
+  display : flex;
+  flex-wrap : wrap;
+  align-items : center;
+  justify-content : center;
+
+  position : relative;
+  padding : 10px;
+}
+
+.container .card {
+  position: relative;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+  max-width : 288px;
+  height : 488px;  
+  background-color : white;
+  border-radius : 15px; 
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);  /* box-shadow : 0.5px 0.5px 0.5px 0.5px #023430 ; */
+  text-align : center; 
+  padding : 10px ;
+}
+
+/* .container .card .image2 {
+  align-self: flex-start;
+} */
+
+.container .card .heading {
+  position : absolute;
+  text-align : center;
+  top: 88px;
+  /* padding-top: 1px;
+  padding-bottom: 5px;   */
+ 
+}
+
+.container .card .content {
+  position : relative;
+  text-align : center;
+  top: 48px;
+  padding-top: 5px;
+  padding-bottom: 20px; 
+}
+
+.container .card .explore {
+  position : absolute;
+  text-align: center;
+  align-self: center;
+  bottom: 8px;
+  color: white;
+  background-color: #00ed64;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+ 
+}
+
+.white{
+  color: #ffff;
+}
+
+.container .card:hover {
+  background-color : #009de0 ;  /* #00AC41 */
+  color : rgb(255, 255, 255); 
+  border: 1px solid black;
+}
+
+
+.container .card:hover .explore {
+  background-color : #ffff ;
+ color: #00ed64 ;
+}
+
+.container .card:hover .white{
+  color: #00ed64 ;
+}
+
+
+
+.image {
+  position: absolute;
+  display: inline-block;
+  background-color : transparent ;
+  top: 0px;
+  
+}
+.image .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.container .card:hover .img-top {
+  display: inline;
+  background-color : #009de0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card2 {
+  position: relative;
+  display : flex;
+  align-items : flex-end;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+  width : 1200px;
+  height : 600px;  
+  background-color : #001e2b;
+  /* border-radius : 160px;  */
+  right: 520px;
+  padding : 10px ;
+  border-bottom-right-radius: 160px;
+  border-top-right-radius: 160px;
+
+ 
+
+}
+
+.card3 {
+  position: absolute;
+  display : flex;
+  align-items : flex-end;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+
+  width : 1600px;
+  height : 680px;  
+  background-color : #6cd3fe;
+  color: aliceblue;
+  border-radius : 140px; 
+  right: -10px;
+  padding : 10px ;
+}
+
+.oracle {
+
+  position: relative;
+  display : flex;
+  align-self: center;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+
+  height : 400px; 
+  width : 400px;
+
+  left: 80px;
+   
+  background-color : #dc2023; /* #00684a; */
+  color: #ffff;
+
+  border-radius : 80px;
+
+  z-index: 2;
+
+}
+
+.oracle-support {
+  
+  position: relative;
+  display : flex;
+  align-self: center;
+  align-items : flex-start;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+
+  /* text-align: center; */
+
+  height : 520px;
+  width : 800px;
+    
+  background-color : #F9F9F9;
+  color: #023430;
+
+  border-radius : 120px; 
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);  /* box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1); */
+
+  z-index: 1;
+
+  left: -40px;
+  
+  margin-block-start: 320px;
+
+
+}
+
+.o {
+
+  position: absolute;
+ 
+
+  height : 100px; 
+  width : 280px;
+
+  top: 10px;
+  left: 400px;
+   
+  background-color : #6cd3fe; /* #00684a; */
+  color: #ffff;
+
+  /* border-bottom-left-radius : 80% 100%; */
+  border-top-right-radius: 160px;
+  border-bottom-left-radius : 160px;
+  
+z-index: 5;
+  
+
+}
+
+.card4 {
+  position: relative;
+  display : flex;
+  align-items : flex-start;
+  align-self: flex-end;
+  justify-content : center;
+  flex-wrap : wrap;
+  flex-direction : column;
+
+  width : 600px;
+  height : 420px;  
+  background-color : #2bb53e;
+  color: aliceblue;
+
+  border-top-left-radius : 80px;
+  border-bottom-left-radius : 80px;
+
+  top: 60px;
+
+  left: 332px;
+   
+  
+  
+}
+
+@media (max-width: 600px){
+
+  .card2 {
+   
+    align-items: center;
+    border-radius : 0px; 
+    right: 0px;
+    width: 580px;
+  
+  }
+
+  .oracle {
+
+   left: 0px;
+  
+  }
+  
+  .oracle-support {
+    
+   left: 0px;
+   margin-block-start: -100px;
+   text-align: center;
+   width: 580px;
+   height : 520px; 
+  
+  }
+
+}
