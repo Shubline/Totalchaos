@@ -1,0 +1,139 @@
+* { 
+    
+    font-family : "Poppins", sans-serif;
+   
+}
+
+
+.head {
+    position: fixed;
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 5rem;
+    padding: 0rem 1.5rem;                 /* padding: (top + bottom)px (left + right)px; */
+    z-index: 100;
+    background-color: #9ddffd;
+}
+
+.headlogo {
+    padding: 0.313rem 0rem;
+   
+}
+
+.headrow {
+    display: flex;
+    flex-wrap : wrap;
+    align-items: center;
+
+    flex-direction: row;
+    justify-content:space-evenly;
+
+    /* width:fit-content; */
+    padding: 0rem 0rem;                           
+}
+
+
+.opening{
+
+    display : flex;
+    flex-wrap : wrap;
+    align-items : center;
+
+    justify-content : space-evenly;
+
+    flex-direction : row-reverse;
+    text-align: center;
+
+    position: relative;
+    top:5rem;
+
+    padding: 1.25rem 0rem;
+
+    
+
+    background-color: #6cd3feff;
+    
+
+
+}
+.op2{
+    flex-direction : row;
+
+}
+
+
+
+
+/*Media Queries*/
+/*Small Devices  -->  phones */
+@media (max-width: 640px) {
+
+    .head {
+        position: relative;
+        padding: 0.5rem 0rem;   
+    }
+    
+    .headlogo {
+        width: 10%;    
+    }
+
+    .headrow {
+        display: none;
+    }
+
+    .headrow.show {
+        width: 90%;
+        min-height: 57vh;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 1%;
+        left: 2%;
+        background: #FFF;
+        justify-content: flex-start;
+         box-shadow: 1px 1px 20px rgb(0 0 0 / 20%);
+        border-radius: 0.5rem;
+        padding-top: 1rem;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        transition-property: opacity, transform, -webkit-transform;
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+        transform: scale(1);
+        opacity: 1;
+        padding: 0.75rem;
+        z-index: 1;
+    }
+
+    .headrow.show > a, .headrow.show > div.dropdown {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .headrow.show div.dropdown-content {
+        box-shadow: none !important;
+        min-width: auto !important;
+        position: relative !important;
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .opening {
+
+        justify-content : center;
+        top: 0px;
+        
+    }
+     
+
+}
