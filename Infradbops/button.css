@@ -1,0 +1,83 @@
+.headbutton {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.connect-with-us {
+    padding: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: #ffff;
+    background-color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.btn{
+    border: 1px solid transparent;
+}
+
+.btn:hover
+{
+background-image:none !important;
+background-color:#00ed64 !important;
+/* border-radius: 30px; */
+border: 1px solid black;
+transition : 0.275s ease-in-out;
+color: black;
+}
+
+
+.btn1:hover
+{
+    color: #00ed64 !important;    /* #0089ff  */
+}
+
+.btn2
+{
+background-image:none !important;
+background-color: white !important;
+color :black !important;
+border: 1px solid transparent;
+}
+
+.btn2:hover
+{
+color:#00ed64 !important;
+border: 1px solid black;
+background-image:none !important;
+transition : 0.275s ease-in-out;
+border: 1px solid black;
+/* margin : 30px 10px; */
+/* padding : 20px 15px; */
+}
+
+
+
+@media (max-width: 800px) {
+
+    .headbutton {
+        padding: 0rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        
+    }
+
+    .connect-with-us {
+        
+        padding: 0.375rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        
+    }
+
+
+}
